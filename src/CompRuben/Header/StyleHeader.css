@@ -1,0 +1,30 @@
+
+.MuiAppBar-root.AppBar{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: #404EED;
+    padding: 20px 0;
+}
+
+.MuiBox-root.containerLinks{
+    display: none;
+}
+
+.MuiContainer-root.containerBtnLoginMenu{
+    margin: 0;
+    width: auto;
+}
+
+@media (min-width:1020px){
+    .MuiAppBar-root.AppBar{
+        justify-content: space-around;
+    }
+    .MuiBox-root.containerLinks{
+        display: block;
+    }
+    .MuiIconButton-root.btnMenu{
+        display: none;
+    }
+}
