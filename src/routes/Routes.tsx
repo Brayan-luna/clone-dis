@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Home } from "../CompRuben/Home/Home";
-import { Login } from "../CompRuben/Login/Login";
+import { Home } from "../Components/Home/Home";
+import { Login } from "../Components/Login/Login";
 import { NavLink } from "../util/Interface";
 
 export const PageRoutes = () => {
