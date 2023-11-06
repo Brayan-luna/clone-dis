@@ -5,12 +5,12 @@ import { NavLiksProps } from "../../util/Interface"
 import { NavList } from "./NavList"
 import { NavLink } from "react-router-dom"
 import './StyleHeader.css';
-
+import { useCustomNavigate } from "../Hocks/useNavigate"
 
 export const Header = ({ArrNavLinks}:NavLiksProps) => {
-
+    const customNavigate = useCustomNavigate();
     const [open, setOpen] = useState<boolean>(false)
-
+  
   return (
     <>
         <AppBar position="static" className="AppBar">
@@ -38,7 +38,9 @@ export const Header = ({ArrNavLinks}:NavLiksProps) => {
             </Container>
 
             <Container className="containerBtnLoginMenu" >
-                <Button sx={{
+                <Button
+                    onClick={()=> customNavigate('/login')} 
+                    sx={{
                     color:"black",
                     backgroundColor:"white",
                     borderRadius:"50px",

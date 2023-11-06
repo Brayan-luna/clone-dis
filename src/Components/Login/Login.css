@@ -1,0 +1,54 @@
+.box {
+  background-color: #313338;
+  padding: 20px;
+  display: flex;
+  border-radius: 5px;
+max-width: 40%;
+
+}
+.sectFormLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  height: 100vh;
+}
+.formHola {
+    width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.textColorGray {
+  color: #9a9ea5;
+  font-size: 12px;
+  font-weight: 600;
+}
+.containerDivInputs {
+    width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.inputsFormLogin {
+  background-color: #1e1f22;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  outline: none;
+  color: white;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.btnFormLogin.css-19lhx1e-MuiButtonBase-root-MuiButton-root:hover{
+    background-color: #4752C4;
+}
+.formQr{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

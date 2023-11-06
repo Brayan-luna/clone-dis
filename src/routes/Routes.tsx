@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Home } from "../Components/Home/Home";
-import { Login } from "../Components/Login/Login";
+import Login from "../Components/Login/Login";
 import { NavLink } from "../util/Interface";
 
 export const PageRoutes = () => {
@@ -40,7 +40,7 @@ export const PageRoutes = () => {
     <BrowserRouter>
         <Routes>
             <Route path="/" element={ <Home ArrNavLinks={ArrNavLink} />} />
-            <Route path="login" element={ <Login />} />
+            <Route path="/login" element={ <Login/>} />
         </Routes>
     </BrowserRouter>
   )
